@@ -1,0 +1,21 @@
+import QtQuick 2.0
+
+Rectangle {
+    id: rectangle
+    property alias texto: nombre.text
+    width: 150
+    height: 55
+    color: "#387eec"
+    radius: 15
+    Text {
+        id: nombre
+        color: "#ffffff"
+        font.weight: Font.Bold
+        font.pointSize: 20
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+    }
+    MouseArea{
+        anchors.fill: parent
+    }
+}

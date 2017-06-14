@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>imagenes/arroz.png</file>
+        <file>imagenes/chocolate.png</file>
+        <file>imagenes/coco.png</file>
+        <file>imagenes/dona.png</file>
+        <file>imagenes/emparedado.png</file>
+        <file>imagenes/fideos.png</file>
+        <file>imagenes/galletas.png</file>
+        <file>imagenes/gelatina.png</file>
+        <file>imagenes/golosinas.png</file>
+        <file>imagenes/hamburguesa.png</file>
+        <file>imagenes/huevos.png</file>
+        <file>imagenes/jalea.png</file>
+        <file>imagenes/jamon.png</file>
+        <file>imagenes/helado.png</file>
+        <file>imagenes/pan.png</file>
+        <file>imagenes/papas.png</file>
+        <file>imagenes/pasta.png</file>
+        <file>imagenes/pastel.png</file>
+        <file>imagenes/patatas.png</file>
+        <file>imagenes/pescado.png</file>
+        <file>imagenes/pizza.png</file>
+        <file>imagenes/pollo.png</file>
+        <file>imagenes/queque.png</file>
+        <file>imagenes/queso.png</file>
+        <file>imagenes/salchicha.png</file>
+        <file>imagenes/semillas.png</file>
+        <file>imagenes/tostada.png</file>
+        <file>imagenes/yogurt.png</file>
+        <file>datos.js</file>
+        <file>logica.js</file>
+        <file>Carta.qml</file>
+        <file>Boton.qml</file>
+        <file>imagenes/lose.svg</file>
+        <file>imagenes/win.svg</file>
+        <file>Mensaje.qml</file>
+        <file>imagenes/green_dust_scratch.png</file>
+    </qresource>
+</RCC>
