@@ -1,4 +1,5 @@
 import QtQuick 2.0
+import QtMultimedia 5.8
 
 Rectangle {
     id: rectangle
@@ -22,11 +23,19 @@ Rectangle {
         anchors.verticalCenter: parent.verticalCenter
     }
 
+    SoundEffect {
+        id: pop
+        source: "pop_drip.wav"
+    }
+
     MouseArea{
         id: area
         anchors.fill: parent
         hoverEnabled: true
-        onClicked: ventana.presionado(nombre.text)
+        onClicked: {
+            pop.play()
+            ventana.presionado(nombre.text)
+        }
     }
     NumberAnimation {
         id: animacion

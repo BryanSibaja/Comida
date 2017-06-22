@@ -37,5 +37,6 @@
         <file>imagenes/win.svg</file>
         <file>Mensaje.qml</file>
         <file>imagenes/green_dust_scratch.png</file>
+        <file>pop_drip.wav</file>
     </qresource>
 </RCC>

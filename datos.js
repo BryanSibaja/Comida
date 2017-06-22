@@ -60,7 +60,7 @@ var datos =[
         imagen: "imagenes/huevos.png"
     },
     {
-        ingles: "ham",
+        ingles: "jam",
         espanol: "jalea",
         imagen: "imagenes/jalea.png"
     },
