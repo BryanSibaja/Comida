@@ -25,6 +25,7 @@ Window {
     Component.onCompleted: {
         Experto.datos = Datos.datos
         iniciar()
+        info.open()
     }
 
     Image {
